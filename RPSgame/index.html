@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="game">
+        <section class="part1">
+            <div class="players">
+                <h2>player</h2>
+                <h2>computer</h2>
+            </div>
+            <div class="score">
+                <h2 id="pscore">0</h2>
+                <h2 id="cscore">0</h2>
+            </div>
+            
+        </section>
+        <section class="part2">
+            <h2 id="gamename">rock paper scrissors</h2>
+        </section>
+        <section class="part3">
+            <div ><img src="./paper.png" alt="" id="playerImg"></div>
+            <div ><img src="./rock.png" alt=""  id="computerImg"></div>
+        </section>
+        <section class="part4">
+            <div  class="btn"> <button id="rock-btn" onclick="rock()">rock</button></div>
+            <div  class="btn"><button id="paper-btn" onclick="paper()">paper</button></div>
+            <div  id="scrissor-btn" class="btn" onclick="scrissor()"><button> scrissors</button></div>
+        </section>
+
+         <script src="index.js"></script>
+    </section>
+    
+</body>
+</html>

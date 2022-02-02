@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.game{
+    display: grid;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+ .players,.score,.part2,.part3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.part4{
+    display: flex;
+    padding: 30px;
+    margin: 13px;
+}
+.btn{
+    margin-left: 35px;
+}
+button:hover{
+    background-color: rgb(98, 86, 86);
+}
+
+button{
+    border-style: none;
+    height: 35px;
+    width: 85px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
